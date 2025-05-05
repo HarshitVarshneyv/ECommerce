@@ -1,5 +1,3 @@
-Sure! Here's a **full README** for your GitHub repository, formatted to be clear, visually appealing, and professional with appropriate icons and sections. It covers all the important information for your **Full Stack E-commerce Project**.
-
 ---
 
 # 🎉 **Full Stack E-commerce Search & Product Details** 🛍️
