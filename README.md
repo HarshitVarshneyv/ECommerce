@@ -1,6 +1,7 @@
 ---
 
 # 🎉 **Full Stack E-commerce Search & Product Details** 🛍️
+<h2 style="color: red; font-size: 28px;">🔴 Dedicated to #Spend</h2>
 
 Welcome to the **Full Stack E-commerce** project! This is a full-featured web application for product search and product details with a backend API in **Spring Boot** and a frontend built using **React**. The project allows users to search for products, view detailed information about each product, and enjoy a seamless, responsive shopping experience.
 
