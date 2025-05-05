@@ -1,7 +1,8 @@
 ---
 
 # 🎉 **Full Stack E-commerce Search & Product Details** 🛍️
-<h2 style="color: red; font-size: 28px;">🔴 Dedicated to #Spend</h2>
+
+#  This Project is dedicated to SpendTech  => 
 
 Welcome to the **Full Stack E-commerce** project! This is a full-featured web application for product search and product details with a backend API in **Spring Boot** and a frontend built using **React**. The project allows users to search for products, view detailed information about each product, and enjoy a seamless, responsive shopping experience.
 
@@ -22,7 +23,7 @@ Welcome to the **Full Stack E-commerce** project! This is a full-featured web ap
 ### **Backend** (Spring Boot)
 
 * Spring Boot (REST API)
-* H2/PostgreSQL (Database)
+* H2 (Database)
 * JPA/Hibernate (ORM)
 * Swagger/OpenAPI (API Documentation)
 * Flyway (Database Migrations)
@@ -86,17 +87,7 @@ cd full-stack-ecommerce-project
 
 * JDK 17+
 * Maven
-
-#### Steps:
-
-1. Navigate to the `server` directory.
-2. Open a terminal and run the Spring Boot application:
-
-```bash
-cd server
-./mvnw spring-boot:run
-```
-
+* 
 This will start the backend on `http://localhost:8080`.
 
 #### API Documentation:
@@ -106,7 +97,6 @@ Once the backend is running, you can access the interactive **Swagger UI** for A
 ```
 http://localhost:8080/swagger-ui.html
 ```
-
 ---
 
 ### **3. Setting up Frontend (React)**
@@ -154,18 +144,6 @@ GET http://localhost:8080/products?search=phone
 
 ---
 
-## 🎨 **UI Screenshots**
-
-### **Landing Page (Product Search)**
-
-![Landing Page](https://via.placeholder.com/800x400?text=Landing+Page)
-
-### **Product Details Page**
-
-![Product Details](https://via.placeholder.com/800x400?text=Product+Details+Page)
-
----
-
 ## ⚙️ **API Documentation**
 
 Access full API documentation at:
@@ -210,7 +188,7 @@ We welcome contributions! If you'd like to help make this project better, feel f
 
 ## 📝 **License**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Make this repo as Your Star to save it ...
 
 ---
 
@@ -228,19 +206,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Feel free to reach out via:
 
 * GitHub Issues
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* Email: [harshitvarshneyv2@gmail.com]
 
+  
 ---
-
 ### Icons used:
 
 * 🌐 [Font Awesome](https://fontawesome.com/)
 * 📄 [Heroicons](https://heroicons.com/)
-
 ---
-
 **Enjoy building your Full Stack E-commerce project!**
-
----
-
-This README is designed to be clear, professional, and to provide all the necessary information for anyone who visits your GitHub repository. You can modify it to suit your needs or add any other relevant sections.
