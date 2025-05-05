@@ -1,0 +1,8 @@
+package com.backend.ecommerce.exception;
+
+public class Snippet {
+	public static void main(String[] args) {
+		ProductNotFoundException
+	}
+}
+

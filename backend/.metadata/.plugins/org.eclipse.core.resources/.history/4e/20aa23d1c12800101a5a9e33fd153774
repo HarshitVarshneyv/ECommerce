@@ -1,0 +1,29 @@
+package com.backend.ecommerce.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.backend.ecommerce.entity.Product;
+import com.backend.ecommerce.repository.ProductRepository;
+
+@Service
+public class ProductService {
+
+	private final ProductRepository productRepository;
+	
+	public ProductService(ProductRepository productRepository) {
+		this.productRepository = productRepository;
+	}
+
+	public List<Product> getAllProducts(String search) {
+		 return (search == null || search.isBlank()) ? productRepository.findAll() : productRepository.search(search);
+	}
+
+	public Product getProductById(Long id) {
+		 return productRepository.findById(id).orElseThrow(
+				 () -> new ProductNotFoundException("Product is not found"));
+	}
+	
+	
+}
